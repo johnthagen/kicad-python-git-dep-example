@@ -6,12 +6,13 @@ This repository demonstrates issues with depending on
 ## Setup
 
 1. Install a compatible version of Protobuf
-    - On macOS, install [Homebrew](https://brew.sh/) and run `brew bundle` in this directory. 
+    - On macOS, install [Homebrew](https://brew.sh/) and run `brew bundle` in this directory.
+    - On Linux, run `./install_protobuf_linux.sh`
 2. Install [uv](https://docs.astral.sh/uv/getting-started/installation/)
 3. Install dependencies (including `kicad-python`): `uv sync`
 4. Run the example plugin: `uv run main.py`
 
-On macOS, get the error:
+On macOS and Ubuntu 24.04, the following error occurs:
 
 ```
   File "kicad-python-git-dep-example/main.py", line 23, in <module>
