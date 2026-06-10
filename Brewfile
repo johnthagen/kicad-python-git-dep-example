@@ -1,0 +1,1 @@
+brew "protobuf@21"

@@ -1,0 +1,10 @@
+[project]
+name = "kicad-python-git-dep-example"
+version = "0.1.0"
+requires-python = ">=3.14, <3.15"
+dependencies = [
+    "kicad-python",
+]
+
+[tool.uv.sources]
+kicad-python = { git = "https://gitlab.com/kicad/code/kicad-python" }
