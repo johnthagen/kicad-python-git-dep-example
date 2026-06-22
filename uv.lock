@@ -74,7 +74,7 @@ wheels = [
 [[package]]
 name = "kicad-python"
 version = "0.8.0.dev0"
-source = { git = "https://gitlab.com/kicad/code/kicad-python#d2ccfcd9c698462cc96632c95cec08d29952db41" }
+source = { git = "https://gitlab.com/kicad/code/kicad-python#d54bd6288775d7e75be53bac7aa0ed3dba5d10fd" }
 dependencies = [
     { name = "jsonschema" },
     { name = "protobuf" },

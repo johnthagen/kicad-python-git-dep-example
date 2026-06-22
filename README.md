@@ -7,6 +7,7 @@ This repository demonstrates issues with depending on
 
 1. Install a compatible version of Protobuf
     - On macOS, install [Homebrew](https://brew.sh/) and run `brew bundle` in this directory.
+        - Then run, `echo 'export PATH="/opt/homebrew/opt/protobuf@21/bin:$PATH"' >> ~/.zshrc`
     - On Linux, run `./install_protobuf_linux.sh`
 2. Install [uv](https://docs.astral.sh/uv/getting-started/installation/)
 3. Install dependencies (including `kicad-python`): `uv sync`
